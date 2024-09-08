@@ -55,25 +55,5 @@ section {
     color: #555;
 }
 
-/* Estilo para o alerta */
-.alert {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #fff;
-    border: 1px solid #ccc;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    z-index: 1000; /* Garante que o alerta fique acima de outros conteúdos */
-}
-
-.hidden {
-    display: none;
-}
-
-.alert button {
-    margin-top: 10px;
-}
 
 
