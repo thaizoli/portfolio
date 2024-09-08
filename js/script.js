@@ -1,3 +1,7 @@
-window.onload = function() {
-    alert('Bem-vindo ao meu portfólio!');
-};
+function showAlert() {
+    document.getElementById('alert').classList.remove('hidden');
+}
+
+function hideAlert() {
+    document.getElementById('alert').classList.add('hidden');
+}

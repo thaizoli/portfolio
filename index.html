@@ -20,8 +20,17 @@
         </nav>
     </header>
 
+     <!-- Botão para disparar o alerta -->
+    <button onclick="showAlert()">Mostrar Alerta</button>
+
+    <!-- Alerta personalizado -->
+    <div id="alert" class="alert hidden">
+        <p>Welcome to my portfolio!</p>
+        <button onclick="hideAlert()">Fechar</button>
+    </div>
+
     <section id="menu">
-        <h2>Menu</h2>
+        <h2>My Projects</h2>
         <div class="gallery">
             <div class="item">
                 <a href="https://www.exemplo.com/link1">
@@ -44,18 +53,7 @@
         </div>
     </section>
 
-    <section id="contato">
-        <h2>Contato</h2>
-        <p>WhatsApp: <a href="https://wa.me/seunumero">+55 (XX) XXXX-XXXX</a></p>
-        <p>Email: <a href="mailto:seuemail@exemplo.com">seuemail@exemplo.com</a></p>
-        <p>Endereço: Rua Exemplo, Cidade, País</p>
-    </section>
- <!-- Nova Seção Sobre Mim -->
-    <section id="sobre">
-        <h2>Sobre Mim</h2>
-        <p>Olá! Meu nome é Thainá. Sou desenvolvedora iniciante e estou criando este portfólio para compartilhar meus projetos e experiências.</p>
-        <p>Tenho experiência em várias áreas e estou constantemente aprendendo e melhorando minhas habilidades técnicas.</p>
-    </section>
+   
     <script src="js/script.js"></script>
 </body>
 </html>
