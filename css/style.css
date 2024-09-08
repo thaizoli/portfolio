@@ -54,3 +54,21 @@ section {
     font-size: 14px;
     color: #555;
 }
+
+/* Estilo para a seção 'Sobre Mim' */
+#sobre {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+#sobre h2 {
+    color: #333;
+}
+
+#sobre p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
+}
